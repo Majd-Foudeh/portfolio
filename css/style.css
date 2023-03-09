@@ -1,0 +1,9 @@
+.box-shadow{
+    box-shadow: 2px 2px;
+}
+hr {
+    width: 5%;
+    border-style: none;
+    border-top: 6px dotted var(--grey-light);
+    margin: auto;
+}
