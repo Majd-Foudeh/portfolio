@@ -1,28 +1,32 @@
-html, body {
+html,
+body {
     height: 100%;
     margin: 0;
-  }
-  
-.box-shadow{
+}
+
+.box-shadow {
 
     /* box-shadow: 2px ; */
     /* padding-bottom: 10px; */
 }
-hr {
-    width: 5%;
-    border-style: none;
-    border-top: 6px dotted var(--grey-light);
-    margin: auto;
+
+hr { 
+
+   
+
+   
 }
-.hero-image{
+
+.hero-image {
     border-color: black;
     border-style: solid;
     border-radius: 40%;
     border-width: 2px;
-    height: 400px ; 
-     width: 400px ;
+    height: 400px;
+    width: 400px;
 }
-.main-img{
+
+.main-img {
     /* position: fixed; */
     /* max-width: 100%;
     height: 100%; */
@@ -31,29 +35,60 @@ hr {
   -webkit-filter: blur(8px);
   z-index: -5; */
 }
-.hr-new{
+
+.hr-new {
     border-top: 1px dotted red;
 }
-div.main-img{
+
+div.main-img {
     height: 100%;
 }
-.icon-style{
+
+.icon-style {
     padding: 10px;
     border-radius: 10px;
 }
-.grad{
-    background-image: linear-gradient(#1d1e20b7,#F3EFE0 );
+
+.grad1 {
+    background-image: linear-gradient(#1d1e20e7,#1d1e2098 ,#1d1e205b);
 }
+.grad2 {
+    background-image: linear-gradient(#1d1e205b ,#1d1e2041);
+}
+.grad3 {
+    background-image: linear-gradient(#1d1e2041 ,#F3EFE0);
+}
+
 .bg-text {
-     /* Fallback color */
-    background-color: rgba(0, 0, 0, 0.199); /* Black w/opacity/see-through */
-  
-    
-    
-   
-   
-   
-   
-  
-   
-   }
+    /* Fallback color */
+    background-color: rgba(255, 255, 255, 0.288);
+    /* Black w/opacity/see-through */
+
+}
+.projects.img{
+    background-image: url('/images/▶\ Mockup\ -\ Untitled\ -\ Google\ Chrome\ 2023-03-11\ 01-05-01.gif');
+}
+/* hr {
+    display: block;
+    margin-top: 0.5em;
+    margin-bottom: 0.5em;
+    margin-left: auto;
+    margin-right: auto;
+    border-style: inset;
+    border-width: 1px;
+  } */
+
+.button-style{
+    background-color: #22A39F;
+    text-decoration: none;
+    color: black;
+    padding: 10px;
+    border-radius: 10px;
+font-weight:500;
+}
+.font-family{
+    font-family: 'Teko', sans-serif;
+    font-size:35px;
+    text-decoration: none;
+    color: aliceblue;
+}
