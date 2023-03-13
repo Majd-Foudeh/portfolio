@@ -90,3 +90,6 @@ font-weight:500;
     /* text-decoration: none; */
     color: #22A39F;
 }
+#contact a{
+    text-decoration: none;
+}
