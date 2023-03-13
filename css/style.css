@@ -62,6 +62,8 @@ div.main-img {
 .bg-text {
     /* Fallback color */
     background-color: rgba(255, 255, 255, 0.288);
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
     /* Black w/opacity/see-through */
 
 }
@@ -91,4 +93,18 @@ font-weight:500;
     font-size:35px;
     text-decoration: none;
     color: aliceblue;
+}
+.transtion:hover{
+    transform: scale(1.1);
+    transition: 0.3s ease-out transform;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+
+}
+.skills-card:hover{
+    transform: scale(1.07);
+    transition: 0.3s ease-out transform;
+}
+.nostyle-link{
+    /* text-decoration: none; */
+    color: #22A39F;
 }
